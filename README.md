@@ -1,6 +1,17 @@
 # frontend-mentor-challenges
 
-My solutions to Frontend Mentor challenges
+My solutions to [Frontend Mentor challenges](frontendmentor.io/) made to build experience of creating websites and prove web development skills.
+Those challenges mimic a real-life workflow. Each one includes designs (mobile & desktop), a style guide, and a project brief.
+
+## Difficulty: NEWBIE
+
+1. Intro component with signup form
+
+   Responsive intro comopnent and signup form with flexbox and VanillaJS form validation.
+
+   - [LIVE PREVIEW](https://learn-code-intro.now.sh)
+   - [SOLUTION](https://www.frontendmentor.io/solutions/responsive-intro-and-signup-form-with-validation-Xf2uuhL0j)
+   - [SOURCE CODE](https://github.com/norlowska/frontend-mentor-challenges/tree/master/intro-component-with-signup-form)
 
 ## Difficulty: JUNIOR
 
