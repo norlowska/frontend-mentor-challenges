@@ -1,6 +1,6 @@
 # frontend-mentor-challenges
 
-My solutions to [Frontend Mentor challenges](frontendmentor.io/) made to build experience of creating websites and prove web development skills.
+My solutions to [Frontend Mentor challenges](https://frontendmentor.io/) made to build experience of creating websites and prove web development skills.
 Those challenges mimic a real-life workflow. Each one includes designs (mobile & desktop), a style guide, and a project brief.
 
 ## Difficulty: NEWBIE
