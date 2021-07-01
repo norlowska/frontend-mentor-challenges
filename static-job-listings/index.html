@@ -1,193 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Job Listings</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-  <!-- Item Start -->
-  Photosnap
-  New!
-  Featured
-  Senior Frontend Developer
-  1d ago
-  Full Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Senior
-  <!-- Languages -->
-  HTML
-  CSS
-  JavaScript
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Manage
-  New!
-  Featured
-  Fullstack Developer
-  1d ago
-  Part Time
-  Remote
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  Python
-  <!-- Tools -->
-  React
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Account
-  New!
-  Junior Frontend Developer
-  2d ago
-  Part Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  MyHome
-  Junior Frontend Developer
-  5d ago
-  Contract
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  CSS
-  JavaScript
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Loop Studios
-  Software Engineer
-  1w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Ruby
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  FaceIt
-  Junior Backend Developer
-  2w ago
-  Full Time
-  UK only
-  <!-- Role -->
-  Backend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  Ruby
-  <!-- Tools -->
-  RoR
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Shortly
-  Junior Developer
-  2w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  HTML
-  JavaScript
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Insure
-  Junior Frontend Developer
-  2w ago
-  Full Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  Vue
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Eyecam Co.
-  Full Stack Engineer
-  3w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Python
-  <!-- Tools -->
-  Django
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  The Air Filter Company
-  Front-end Dev
-  1mo ago
-  Part Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
-  <!-- Item End -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="container">
+    <header class="header">
+    </header>
+    <div class="list-container">
+      <ul>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Photosnap</div>
+          <div class="pill pill-green">
+            New!
+          </div>
+          <div class="pill pill-black">
+            Featured
+          </div>
+          <h1 class="position">
+            Senior Frontend Developer
+          </h1>
+          <div class="listing-details">
+            <div>1d ago</div>
+            <div>Full Time</div>
+            <div>USA only</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="senior">Senior</div>
+            <div class="pill pill-default" data-languages="html">HTML</div>
+            <div class="pill pill-default" data-languages="html">CSS</div>
+            <div class="pill pill-default" data-languages="html">JavaScript</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Manage</div>
+          <div class="pill pill-green">
+            New!
+          </div>
+          <div class="pill pill-black">
+            Featured
+          </div>
+          <h1 class="position">
+            Fullstack Developer
+          </h1>
+          <div class="listing-details">
+            <div>1d ago</div>
+            <div>Part Time</div>
+            <div>Remote</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="fullstack">Fullstack</div>
+            <div class="pill pill-default" data-leve="midweight">Midweight</div>
+            <div class="pill pill-default" data-languages="python">Python</div>
+            <div class="pill pill-default" data-tools="react">React</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Account</div>
+          <div class="pill pill-green">
+            New!
+          </div>
+          <h1 class="position">
+            Junior Frontend Developer
+          </h1>
+          <div class="listing-details">
+            <div>2d ago</div>
+            <div>Part Time</div>
+            <div>USA only</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-tools="react">React</div>
+            <div class="pill pill-default" data-tools="sass">Sass</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">MyHome</div>
+          <h1 class="position">
+            Junior Frontend Developer
+          </h1>
+          <div class="listing-details">
+            <div>5d ago</div>
+            <div>Contract</div>
+            <div>USA only</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-languages="css">CSS</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">LoopStudios</div>
+          <h1 class="position">
+            Software Engineer
+          </h1>
+          <div class="listing-details">
+            <div>1w ago</div>
+            <div>Full Time</div>
+            <div>Worldwide</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="fullstack">Fullstack</div>
+            <div class="pill pill-default" data-leve="midweight">Midweight</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-languages="ruby">Ruby</div>
+            <div class="pill pill-default" data-tools="sass">Sass</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">FaceIt</div>
+          <h1 class="position">
+            Junior Backend Developer
+          </h1>
+          <div class="listing-details">
+            <div>2w ago</div>
+            <div>Full Time</div>
+            <div>UK only</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="backend">Backend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="ruby">Ruby</div>
+            <div class="pill pill-default" data-tools="ror">RoR</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Shortly</div>
+          <h1 class="position">
+            Junior Developer
+          </h1>
+          <div class="listing-details">
+            <div>2w ago</div>
+            <div>Full Time</div>
+            <div>Worldwide</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="html">HTML</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-tools="sass">Sass</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Insure</div>
+          <h1 class="position">
+            Junior Frontend Developer
+          </h1>
+          <div class="listing-details">
+            <div>2w ago</div>
+            <div>Full Time</div>
+            <div>USA only</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-tools="vue">Vue</div>
+            <div class="pill pill-default" data-tools="sass">Sass</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">Eyecam Co.</div>
+          <h1 class="position">
+            Full Stack Engineer
+          </h1>
+          <div class="listing-details">
+            <div>3w ago</div>
+            <div>Full Time</div>
+            <div>Worldwide</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="fullstack">Fullstack</div>
+            <div class="pill pill-default" data-leve="midweight">Midweight</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-languages="python">Python</div>
+            <div class="pill pill-default" data-tools="django">Django</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="logo"></div>
+          <div class="company">The Air Filter Company</div>
+          <h1 class="position">
+            Front-end Dev
+          </h1>
+          <div class="listing-details">
+            <div>1mo ago</div>
+            <div>Part Time</div>
+            <div>Worldwide</div>
+          </div>
+          <div clsas="tags">
+            <div class="pill pill-default" data-role="frontend">Frontend</div>
+            <div class="pill pill-default" data-leve="junior">Junior</div>
+            <div class="pill pill-default" data-languages="javascript">JavaScript</div>
+            <div class="pill pill-default" data-tools="react">React</div>
+            <div class="pill pill-default" data-tools="sass">Sass</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/norlowska">Natalia Orłowska</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
