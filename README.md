@@ -22,3 +22,13 @@ Those challenges mimic a real-life workflow. Each one includes designs (mobile &
     - [LIVE PREVIEW](https://insure-landing-page-eight.now.sh)
     - [SOLUTION](https://www.frontendmentor.io/solutions/responsive-landing-page-with-flexbox-and-hamburger-menu-SrZgwdc-M)
     - [SOURCE CODE](https://github.com/norlowska/frontend-mentor-challenges/tree/master/insure-landing-page-master)
+
+## Difficulty: INTERMEDIATE
+
+1.  Job listings with filtering
+
+    Responsive landing page with flexbox and pure CSS hamburger menu.
+
+    - [LIVE PREVIEW](https://static-job-listings-tan.vercel.app)
+    - [SOLUTION](#)
+    - [SOURCE CODE](https://github.com/norlowska/frontend-mentor-challenges/tree/static-job-listings-js/static-job-listings)
